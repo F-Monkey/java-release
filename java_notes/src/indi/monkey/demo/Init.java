@@ -19,8 +19,8 @@ public class Init {
 		return (Unsafe) declaredField.get(null);
 	}
 	public static void main(String[] args) throws Exception{
-//		InitDemo initDeme = new InitDemo();
-//		InitDemo initDemo = InitDemo.class.newInstance();
+		//InitDemo initDemo = new InitDemo();
+		//InitDemo initDemo = InitDemo.class.newInstance(); 
 		Unsafe unsafe = getUnsafe();// unsafe
 		// 它跳过了构造方法
 		InitDemo initDemo = (InitDemo) unsafe.allocateInstance(InitDemo.class);

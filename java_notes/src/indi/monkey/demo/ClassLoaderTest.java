@@ -13,6 +13,7 @@ public class ClassLoaderTest {
 		System.out.println(mapLoader);
 		System.out.println(ClassLoaderTest.class.getClassLoader());
 		
+	
 		
 	}
 }
